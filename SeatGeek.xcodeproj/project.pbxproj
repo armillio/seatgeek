@@ -13,6 +13,7 @@
 		47D48ED31CF4ABEE00682005 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47D48ED11CF4ABEE00682005 /* Main.storyboard */; };
 		47D48ED51CF4ABEE00682005 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47D48ED41CF4ABEE00682005 /* Assets.xcassets */; };
 		47D48ED81CF4ABEE00682005 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47D48ED61CF4ABEE00682005 /* LaunchScreen.storyboard */; };
+		47D48EE11CF4AC2700682005 /* VerticalSpreadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 47D48EE01CF4AC2700682005 /* VerticalSpreadView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		47D48ED41CF4ABEE00682005 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		47D48ED71CF4ABEE00682005 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		47D48ED91CF4ABEE00682005 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47D48EDF1CF4AC2700682005 /* VerticalSpreadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VerticalSpreadView.h; sourceTree = "<group>"; };
+		47D48EE01CF4AC2700682005 /* VerticalSpreadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VerticalSpreadView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				47D48ED61CF4ABEE00682005 /* LaunchScreen.storyboard */,
 				47D48ED91CF4ABEE00682005 /* Info.plist */,
 				47D48EC81CF4ABEE00682005 /* Supporting Files */,
+				47D48EDF1CF4AC2700682005 /* VerticalSpreadView.h */,
+				47D48EE01CF4AC2700682005 /* VerticalSpreadView.m */,
 			);
 			path = SeatGeek;
 			sourceTree = "<group>";
@@ -150,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				47D48ED01CF4ABEE00682005 /* ViewController.m in Sources */,
+				47D48EE11CF4AC2700682005 /* VerticalSpreadView.m in Sources */,
 				47D48ECD1CF4ABEE00682005 /* AppDelegate.m in Sources */,
 				47D48ECA1CF4ABEE00682005 /* main.m in Sources */,
 			);
