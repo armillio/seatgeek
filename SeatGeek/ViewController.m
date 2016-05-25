@@ -36,7 +36,8 @@
     label.backgroundColor = [UIColor blueColor];
     label.textAlignment = NSTextAlignmentCenter;
     label.textColor = [UIColor whiteColor];
-    label.layer.cornerRadius = 2.0;
+    label.layer.cornerRadius = 10.0;
+    label.layer.masksToBounds = YES;
     return label;
 }
 
