@@ -34,7 +34,7 @@
                                            self.mainFrame.size.width, (self.mainFrame.size.height / numberOfViews) - viewPadding);
         actualView.frame = actualViewRect;
         tempRect = actualView.frame;
-        viewPadding = 40;
+        viewPadding = 20;
     }
 }
 
